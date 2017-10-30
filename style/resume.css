@@ -1,3 +1,20 @@
+.container-lmr{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.container-left {
+    flex: 2
+}
+
+.container-middle {
+    flex: 2
+}
+.container-right {
+    flex: 1;
+    justify-content: flex-end;
+}
+
 .resume-container {
     position: relative;
     display: flex;
@@ -54,4 +71,18 @@
     height: .2rem;
     display: flex;
     background-color: cornflowerblue;
+}
+
+.category-text-container{
+    display: flex;
+    min-width: 30rem;
+    flex-flow: column nowrap;
+    font-size: 1.5rem;
+}
+
+.text {
+    display: flex;
+    height: 2rem;
+    flex-flow: row nowrap;
+    margin-left: 5rem;
 }

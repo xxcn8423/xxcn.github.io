@@ -14,6 +14,8 @@ html {
 }
 
 body {
+    display: flex;
+    flex-flow: column;
     margin: 0;
 }
 
@@ -50,4 +52,33 @@ body {
     height: .5rem;
     display: flex;
     background-color: cornflowerblue;
+}
+.upper-container {
+    display: flex;
+    height: 30rem;
+    width: 100%;
+}
+
+.upper-text {
+    display: flex;
+    font-size: 4rem;
+    margin: auto;
+    color: cyan;
+}
+
+.lower-text {
+    display: flex;
+    font-size: 3.5rem;
+    margin: auto;
+    color: cyan;
+}
+
+.main-container {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.upper-vertical{
+    display: flex;
+    flex: 1 1 0;
 }
